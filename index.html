@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Searching WebApp</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- for using aerrow button   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+
+    <!-- nav-bar/= -->
+
+
+    <div class="nav-bar">
+        <div class="logo">
+            <div class="logo-image"></div>
+            <div class="logo-name">KALUA IMAGE</div>
+        </div>
+        <div class="nav-content">
+            <ul>
+                <li class="home-button"><a>Home</a></li>
+                <li class="service-button"><a>Service</a></li>
+                <li class="contect-button"><a>Contect</a></li>
+                <li class="about-button"><a>About</a></li>
+            </ul>
+            <div class="hambarger"></div>
+        </div>
+    </div>
+
+
+    <!-- website discription and search box -->
+
+
+    <div class="mid-body-background"></div>
+
+    <div class="mid-body">
+        <div class="body-content">
+            <div class="content">The best free stock photos, royalty free images shared by creators. Looking for the
+                right picture or visual? Choose the type of free image you need.
+            </div>
+        </div>
+        <form action="" class="search">
+            <input type="text" class="search-box" placeholder="Enter your image name">
+            <button class="search-button">Search</button>
+        </form>
+    </div>
+
+    <!-- top image  -->
+
+    <div class="top-image-contaner">
+        <div class="top-image-box">
+            <div class="top-image-backbtn"><i class="fa-solid fa-circle-arrow-left"></i></div>
+            <div class="top-image-background"></div>
+            <div class="top-image"></div>
+            <div class="top-image-nextbtn"><i class="fa-solid fa-circle-arrow-right"></i></div>
+        </div>
+        <div class="top-image-discribe">Here you can choose the right photo for every moment...</div>
+    </div>
+
+
+    <!-- Service -->
+    <div class="sevice">
+
+        <div class="search-option-container">
+            <div class="search-option-backbtn"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="search-option-box"></div>
+            <div class="search-option-nextbtn"><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+
+        <div class="remdom-image-container">
+            <div id="rendom-image"></div>
+            <div class="rendom-image-buttton-background">
+                <div class="rendom-image-buttton">
+                    <button id="rendom-image-beforebnt">Preview</button>
+                    <div class="rendom-image-page-number"></div>
+                    <button id="rendom-image-nextbnt">Next</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="search-image-container">
+            <div id="search-image"></div>
+            <div class="search-image-button-background">
+                <div class="search-image-button">
+                    <button id="search-image-beforebnt">Preview</button>
+                    <div class="search-image-page-number"></div>
+                    <button id="search-image-nextbtn">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="contect">
+        <div class="contect-name-area">
+            <div class="contect-name-background"></div>
+            <div class="contect-name">Contect Us</div>
+        </div>
+        <div class="contect-area">
+            <div class="contect-link">
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i><a href="tel:+916200340905">+916200######</a></li>
+                    <li><i class="fa-regular fa-envelope"></i><a
+                            href="mailto:drsonukumar001@gmail.com">drsonukumar001@gmail.com</a></li>
+                    <li><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/sonu_kr._singh/">Sonu
+                            Kumar</a></li>
+                    <li><i class="fa-brands fa-facebook"></i><a href="#">#############</a></li>
+                    <li><i class="fa-brands fa-linkedin"></i><a href="#">#############</a></li>
+                    <li><i class="fa-brands fa-twitter"></i><a href="#">#############</a></li>
+                </ul>
+            </div>
+            <div class="contect-form-area">
+                <div class="contect-form-mid-area">
+                    <div class="contect-form-background"></div>
+                    <div class="content-form">
+                        <form>
+                            <div class="user-box">
+                                <input type="text" name="" required="">
+                                <label>Full Name</label>
+                            </div>
+                            <div class="user-box">
+                                <input type="number" name="" required="">
+                                <label>Phone Number</label>
+                            </div>
+                            <div class="user-box">
+                                <input type="email" name="" required="">
+                                <label>Gmail I'd</label>
+                            </div>
+                            <div class="user-box">
+                                <input type="text" name="" required="">
+                                <label>Country</label>
+                            </div>
+                            <div class="user-box">
+                                <input type="text" name="" required="">
+                                <label>Message</label>
+                            </div>
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Submit
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="about-name-area">
+            <div class="about-name">About</div>
+            <div class="about-name-discription">We provide high quality and completely free stock photos. All photos are
+                nicely tagged, searchable and also easy to discover through our
+                discover pages.
+            </div>
+        </div>
+
+        <div class="about-area">
+            <div class="photo-source">
+                <div class="photo-source-name">
+                    Photo Sources
+                </div>
+                <div class="photo-source-discription">
+                    We are now using the free image API of Unsplash Imaage providing website . We constantly
+                    try to deliver as many high quality free stock photos as possible to the creatives who use our
+                    website.
+                </div>
+            </div>
+            <div class="mission">
+                <div class="mission-name">Mission</div>
+                <div class="mission-discription">
+                    We help millions of designers, writers, artists, programmers and other creators to get access to
+                    beautiful photos that they can use freely which empowers them to create amazing products, designs,
+                    stories, websites, apps, art and other work.
+                </div>
+            </div>
+            <div class="contribute">
+                <div class="contribute-name">Contribute</div>
+                <div class="contribute-discription">Contect with our team for your contribution</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
